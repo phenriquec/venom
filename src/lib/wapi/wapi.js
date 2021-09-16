@@ -90,6 +90,8 @@ import {
   getGroupParticipantIDs,
   getHost,
   getMe,
+  getStream,
+  getConn,
   getMessageById,
   getMyContacts,
   getNewId,
@@ -205,7 +207,11 @@ var loadParasite = function () {
           modules.push(o(idx));
         }
         getStore(modules);
-      }
+        if (!Store.Chat._find) {
+          Store.Chat._findAndParse = Store.BusinessProfile._findAndParse;
+          Store.Chat._find = Store.BusinessProfile._find;
+        }
+      },
     ]);
   }
   setInterval(() => {
@@ -363,6 +369,8 @@ if (typeof window.WAPI === 'undefined') {
   // Device functions
   window.WAPI.getHost = getHost;
   window.WAPI.getMe = getMe;
+  window.WAPI.getStream = getStream;
+  window.WAPI.getConn = getConn;
   window.WAPI.isConnected = isConnected;
   window.WAPI.isLoggedIn = isLoggedIn;
   window.WAPI.getBatteryLevel = getBatteryLevel;

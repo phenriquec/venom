@@ -83,6 +83,8 @@ export { getGroupParticipantIDs } from './get-group-participant-ids';
 export { _getGroupParticipants } from './get-group-participants';
 export { getHost } from './get-host';
 export { getMe } from './get-me';
+export { getConn } from './get-conn';
+export { getStream } from './get-stream';
 export { getMyContacts } from './get-my-contacts';
 export { getNewId } from './get-new-id';
 export { getNumberProfile } from './get-number-profile';

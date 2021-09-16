@@ -52,9 +52,9 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNMMNMNMMMNMMNNMMMMMMMMMMMM
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNNNMMNNNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 */
-export function getMe(done) {
-  const rawMe = window.Store.Contact.get(window.Store.Conn.me);
+export function getMe() {
 
-  if (done !== undefined) done(rawMe.all);
-  return rawMe.all;
+  const rawMe = (Store && Store.Conn && Store.Conn.me ? Store.Conn.me : (Store && Store.Conn && Store.Conn.wid ? Store.Conn.wid._serialized : false));
+
+  return rawMe;
 }

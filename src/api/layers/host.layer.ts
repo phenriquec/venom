@@ -385,4 +385,17 @@ export class HostLayer {
   public async getBatteryLevel() {
     return await this.page.evaluate(() => WAPI.getBatteryLevel());
   }
+
+  //Pedro
+  public async getMe() {
+    return await this.page.evaluate(() => WAPI.getMe());
+  }  
+  //Pedro
+  public async getStream() {
+    return await this.page.evaluate(() => WAPI.getStream());
+  }    
+  //Pedro
+  public async getConn() {
+    return await this.page.evaluate(() => WAPI.getConn());
+  }      
 }

@@ -102,6 +102,10 @@ interface WAPI {
   getAllNewMessages: () => Message[];
   getAllUnreadMessages: () => PartialMessage[];
   getBatteryLevel: () => number;
+  //Pedro
+  getMe: () => string;
+  getConn: () => string;
+  getStream: () => string;
   getBlockList: () => Contact[];
   getBusinessProfilesProducts: (to: string) => any;
   getChat: (contactId: string) => Chat;
