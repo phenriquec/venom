@@ -163,7 +163,8 @@ import {
   setGroupTitle,
   setGroupSettings,
   sendButtons,
-  sendListMenu
+  sendListMenu,
+  checkChat
 } from './functions';
 import {
   base64ToFile,
@@ -242,6 +243,7 @@ if (typeof window.WAPI === 'undefined') {
   window.WAPI.checkIdMessage = checkIdMessage;
   window.WAPI.returnReply = returnReply;
   window.WAPI.getStore = getStore;
+  window.WAPI.checkChat = checkChat;
 
   //Profile
   window.WAPI.setProfilePic = setProfilePic;

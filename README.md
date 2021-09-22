@@ -78,10 +78,12 @@ or for [Nightly releases](https://github.com/orkestral/venom/releases/tag/nightl
 > npm i --save https://github.com/orkestral/venom/releases/download/nightly/venom-bot-nightly.tgz
 ```
 
-## Installing the current repository "you can download the beta version from the current repository!"
+Installing the current repository "you can download the beta version from the current repository!"
+
 ```bash
 > npm i github:orkestral/venom
 ```
+
 ## Getting started
 
 ```javascript
@@ -352,7 +354,7 @@ await client.sendListMenu('000000000000@c.us', 'Title', 'subTitle', 'Description
   .catch((erro) => {
     console.error('Error when sending: ', erro); //return object error
   });
-  
+
 // Send Messages with Buttons Reply
 const buttons = [
   {
@@ -616,6 +618,7 @@ const contacts = await client.getAllChatsContacts();
 const contactNewMsg = await client.getChatContactNewMsg();
 
 // Retrieve all groups
+// you can pass the group id optional use, exemple: client.getAllChatsGroups('00000000-000000@g.us')
 const chats = await client.getAllChatsGroups();
 
 //Retrieve all groups new messages
@@ -745,6 +748,10 @@ await client.setProfilePic('path/to/image.jpg');
 ## Device Functions
 
 ```javascript
+
+// Disconnect from service
+await client.logout();
+
 // Delete the Service Worker
 await client.killServiceWorker();
 
@@ -821,9 +828,18 @@ client.onAddedToGroup(chatEvent => {
 ## Other
 
 ```javascript
+//Check if there is chat
+await client
+  .checkChat(chatId)
+  .then((result) => {
+    console.log('Result: ', result); //return object success
+  })
+  .catch((erro) => {
+    console.error('Error when sending: ', erro); //return object error
+  });
+
 // Pin chat and Unpin chat messages with true or false
 // Pin chat, non-existent (optional)
-
 await client
   .pinChat(chatId, true, false)
   .then((result) => {
