@@ -64,6 +64,8 @@ export const _serializeNumberStatusObj = (obj) => {
       status: obj.status,
       isBusiness: obj.biz === true,
       canReceiveMessage: obj.status === 200,
+      text: obj.text ? obj.text : undefined,
+      connection: obj.connection ? obj.connection : undefined,
       profilePic: undefined
     }
   );
