@@ -1,3 +1,23 @@
+## Meet the Superchats
+<br>
+<a href='https://github.com/orkestral/superchats'><img src='https://github.com/orkestral/superchats/raw/main/img/superchats.png' height='60' alt='SuperChats' aria-label='https://github.com/orkestral/superchats' /></a>
+<br>
+<br>
+
+**SuperChats** is a premium library with unique features that control Whatsapp functions with socket.
+With Superchats you can build service bots, multiservice chats or any system that uses Whatsapp
+
+**Superchats** is a premium version of **Venom**, with exclusive features and support for companies and developers worldwide
+<br>
+<a href='https://github.com/orkestral/superchats'>https://github.com/orkestral/superchats</a>
+
+## Buy a license Superchats
+
+The value of the license is $30 monthly dollars, to acquire contact in whatsapp by clicking on the image below !!
+
+<a target="_blank" href="https://web.whatsapp.com/send?phone=556181590153&text=I%20want%20to%20buy%201%20license" target="_blank"><img title="whatzapp" height="100" width="375" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/WhatsApp_logo.svg/2000px-WhatsApp_logo.svg.png"></a>
+
+
 # 🕷Venom Bot🕸
 
 [![npm version](https://img.shields.io/npm/v/venom-bot.svg?color=green)](https://www.npmjs.com/package/venom-bot)
@@ -13,13 +33,15 @@
 
 > Venom is a high-performance system developed with JavaScript to create a bot for WhatsApp, support for creating any interaction, such as customer service, media sending, sentence recognition based on artificial intelligence and all types of design architecture for WhatsApp.
 
+
+## Get started fast and easy! Official API!
+
 <p align="center">
   <a href="https://github.com/orkestral/venom/blob/master/docs/getting-started/creating-client.md">Getting Started</a> •
   <a href="https://github.com/orkestral/venom/blob/master/docs/getting-started/basic-functions.md">Basic Function</a> •
   <a href="https://github.com/orkestral/venom/tree/master/docs/getting-started">Documentation</a>
 </p>
 
-## Get started fast and easy! Official API!
 
 <p>
 It's a high-performance alternative API to whatzapp, you can send, text messages, files, images, videos and more.
@@ -34,13 +56,9 @@ It uses a set of well-defined operations that apply to all information resources
 Use it in your favorite language like PHP, Python, C# and others. as long as your language is supported with the HTTP protocol, you will save time and money. you don't need to know how Venom works, we have the complete API documentation, in a professional way!
 </p>
 
-## Get our official API! Contact us!
+## Get our official API Venom ! Contact us!
 
 <a target="_blank" href="https://web.whatsapp.com/send?phone=556181590153&text=I%20want%20access%20to%20API%20Venom" target="_blank"><img title="whatzapp" height="100" width="375" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/WhatsApp_logo.svg/2000px-WhatsApp_logo.svg.png"></a>
-
-## Need help? Talk to our support!
-
-<a target="_blank" href="https://web.whatsapp.com/send?phone=556181590153&text=Can%20you%20help%20me?" target="_blank"><img title="whatzapp" height="100" width="375" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/WhatsApp_logo.svg/2000px-WhatsApp_logo.svg.png"></a>
 
 ## Venom group support free on Telegram
 
